@@ -113,6 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listProximos);
             this.Controls.Add(this.label7);
@@ -123,7 +124,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.label1);
             this.Name = "FormGuardia";
-            this.Text = "FormGuardia";
+            this.Text = "Consultorio de Guardia";
             this.ResumeLayout(false);
             this.PerformLayout();
 

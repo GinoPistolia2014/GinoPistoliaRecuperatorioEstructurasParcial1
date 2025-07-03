@@ -49,7 +49,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(305, 47);
+            this.label1.Location = new System.Drawing.Point(261, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 1;
@@ -58,7 +58,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(289, 84);
+            this.lblNombre.Location = new System.Drawing.Point(261, 77);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(102, 13);
             this.lblNombre.TabIndex = 2;
@@ -67,7 +67,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(287, 118);
+            this.label3.Location = new System.Drawing.Point(250, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 3;
@@ -76,7 +76,7 @@
             // lblDNI
             // 
             this.lblDNI.AutoSize = true;
-            this.lblDNI.Location = new System.Drawing.Point(322, 118);
+            this.lblDNI.Location = new System.Drawing.Point(294, 118);
             this.lblDNI.Name = "lblDNI";
             this.lblDNI.Size = new System.Drawing.Size(69, 13);
             this.lblDNI.TabIndex = 4;
@@ -113,6 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Coral;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblConsultorio);
@@ -123,7 +124,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listProximos);
             this.Name = "FormClinica";
-            this.Text = "Consultorio Clinica";
+            this.Text = "Consultorio Clinico";
             this.ResumeLayout(false);
             this.PerformLayout();
 
